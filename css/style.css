@@ -1,0 +1,1663 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+}
+
+body {
+  line-height: 1.2em;
+}
+
+p {
+  margin: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* 네브바 css */
+
+#navbar {
+  background: #333;
+  transition: opacity 0.3s cubic-bezier(0.35, 0, 0.65, 1) 0.3s;
+  color: black;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+
+  max-height: 80px;
+}
+
+#navbar a {
+  color: white;
+  margin: auto;
+}
+
+#navbar .logo i {
+  font-size: 35px;
+  padding-top: 1px;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 20px;
+  padding-left: 130px;
+  font-size: 23px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+  padding-right: 130px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#navbar ul li {
+  float: left;
+  list-style: none;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 12px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #8d714a;
+  border-radius: 80px;
+}
+
+/* 구호인력 네브바 */
+.container49 {
+  max-width: 1950px;
+  width: 100%;
+  max-height: 80px;
+  background-color: white;
+  margin: auto;
+  padding-left: 105px;
+  padding-right: 110px;
+  padding-top: 10px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+  z-index: 2;
+}
+
+.container49 a {
+  color: #ff5170;
+}
+.container49 .logo i {
+  color: #ff5170;
+  font-size: 38px;
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
+#navbar50 ul {
+  float: right;
+  list-style: none;
+  padding-right: 130px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#navbar50 ul li {
+  float: left;
+  list-style: none;
+}
+
+#navbar50 ul li a {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  color: #2f2f2f;
+  position: relative;
+  top: -45px;
+  right: 160px;
+}
+
+#navbar50 ul li a:hover,
+#navbar50 ul li a.current {
+  background: #f7f8f9;
+  border-radius: 80px;
+}
+
+#navbar50 .bb1 {
+  font-size: 15px;
+  color: #2f2f2f;
+  background: white;
+  padding-top: 10px;
+  padding-left: 12px;
+  width: 90px;
+  height: 40px;
+  border-radius: 80px;
+  margin-left: 320px;
+  margin-right: 18px;
+  margin-top: -45px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+
+.bb1:hover {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+/* 숙소 네브바 */
+.container4 {
+  max-width: 1950px;
+  width: 100%;
+  max-height: 80px;
+  background-color: white;
+  margin: auto;
+  padding-left: 105px;
+  padding-right: 110px;
+  padding-top: 10px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+  z-index: 2;
+}
+.container4 h1 {
+  margin-left: -77px;
+}
+.container4 .logo a {
+  color: #ff5170;
+}
+.container4 .logo i {
+  color: #ff5170;
+  font-size: 38px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#navbar54 ul {
+  float: right;
+  list-style: none;
+  padding-right: 130px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#navbar54 ul li {
+  float: left;
+  list-style: none;
+}
+
+#navbar54 ul li a {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  color: #2f2f2f;
+  position: relative;
+  top: -45px;
+  right: 160px;
+}
+
+#navbar54 ul li a:hover,
+#navbar54 ul li a.current {
+  background: #f7f8f9;
+  border-radius: 80px;
+}
+
+.container4 .bb1 {
+  font-size: 15px;
+  color: black;
+  background: white;
+  padding-top: 10px;
+  padding-left: 12px;
+  width: 90px;
+  height: 40px;
+  border-radius: 80px;
+  margin-left: 320px;
+  margin-right: 18px;
+  margin-top: -45px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+}
+
+.bb1:hover {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+}
+.bb1 {
+  position: relative !important;
+  top: -25px;
+}
+.bb4 {
+  margin-left: 604px;
+  margin-top: -20px;
+}
+
+.bb41:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.18);
+}
+.bb2 {
+  padding-left: 300px;
+}
+
+.bb4 {
+  position: relative;
+  top: -18px;
+}
+.bb41 {
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+  display: inline-flex;
+  height: 48px;
+  width: 120px;
+  position: relative;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  transition: box-shadow 0.2s ease 0s;
+  border-color: rgb(247, 247, 247);
+  padding-left: 17px;
+  cursor: pointer;
+}
+
+.bb44 {
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+  display: inline-flex;
+  height: 48px;
+  width: 90px;
+  position: relative;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  transition: box-shadow 0.2s ease 0s;
+  border-color: rgb(247, 247, 247);
+  padding-left: 15px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.bb45 {
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+  display: inline-flex;
+  height: 48px;
+  width: 100px;
+  position: relative;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  transition: box-shadow 0.2s ease 0s;
+  border-color: rgb(247, 247, 247);
+  padding-left: 14px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.bb43 {
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+  display: inline-flex;
+  height: 48px;
+  width: 40px;
+  position: relative;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+  color: #ff5170;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: box-shadow 0.2s ease 0s;
+  border-color: rgb(247, 247, 247);
+  padding-left: 13px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+/* 슥소 */
+.j {
+  padding-top: 130px;
+  padding-left: 30px;
+}
+
+.j11 p {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.j11 h1 {
+  font-size: 32px;
+  padding-left: 6px;
+  color: #222222;
+}
+.buttonj {
+  padding-top: 40px;
+}
+.ja,
+.jb,
+.jc,
+.jd,
+.je {
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  outline: none;
+  margin: 0px;
+  border-color: rgb(176, 176, 176);
+  border-radius: 30px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.j1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.jaa {
+  display: grid;
+  grid-template-columns: 400px 600px;
+}
+
+.jj1 img {
+  width: 400px;
+  padding-top: 40px;
+}
+
+.jt1 p {
+  padding-top: 30px;
+  padding-left: 95px;
+  color: darkgrey;
+}
+
+.jt1 .jt111 {
+  margin-left: -83px;
+  margin-top: 9px;
+  margin-bottom: 28px;
+}
+.jaa2 {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  padding-top: 1px;
+  padding-left: 1px;
+  font-size: 12px;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid 3px;
+  border-color: black;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 75px;
+  height: 23px;
+  font-weight: 700;
+  position: relative;
+  top: -33px;
+  left: 15px;
+}
+
+.jt1 h3 {
+  color: #525252;
+  margin-top: -22px;
+  margin-left: 13px;
+}
+
+.jt1 h4 {
+  color: #525252;
+  font-size: 14px;
+  margin-top: 17px;
+  margin-left: 14px;
+}
+
+.jaa3 {
+  padding-left: 500px;
+  margin-top: -40px;
+}
+
+.jaa3 h6 {
+  padding-left: 20px;
+  margin-top: -18px;
+  font-size: 12px;
+}
+
+.jaa3 h7 {
+  font-size: 12px;
+  color: #717171;
+  padding-left: 47px;
+  position: relative;
+  top: -21px;
+}
+
+.jt1 h5 {
+  color: #ff5170;
+}
+
+.buttonjj {
+  padding-left: 110px;
+  padding-top: 20px;
+}
+.jf {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  left: 300px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 16px;
+  font-size: 12px;
+  border-style: none;
+  margin-top: 30px;
+  border-color: rgb(176, 176, 176);
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  font-weight: 600;
+}
+
+.jg,
+.jh,
+.jk {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  left: 300px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 16px;
+  font-size: 12px;
+  border-style: none;
+  margin-top: 30px;
+  border-color: rgb(176, 176, 176);
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  font-weight: 600;
+}
+
+.jj {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  left: 300px;
+  padding-top: -20px;
+  padding-left: 14px;
+  padding-right: 16px;
+  font-size: 12px;
+  border-style: none;
+  border-color: rgb(176, 176, 176);
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  font-weight: 600;
+}
+
+.jl {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  left: 300px;
+  padding-top: -20px;
+  padding-left: 14px;
+  padding-right: 16px;
+  font-size: 12px;
+  border-style: none;
+  border-color: rgb(176, 176, 176);
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  font-weight: 600;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.jp h4 {
+  padding-left: 475px;
+  font-weight: 0;
+  padding-top: 12px;
+  font-size: 14px;
+  color: #525252;
+}
+
+.jp p {
+  font-size: 12px;
+  color: #525252;
+  padding-left: 288px;
+  padding-top: 22px;
+}
+/* 바 */
+.bar8 {
+  margin-top: 30px;
+  width: 1000px;
+  height: 1px;
+  background-color: #f7f7f7;
+}
+
+/* 숙소 지도 */
+.map iframe {
+  width: 100%;
+  height: 100%;
+  display: unset;
+}
+/* 쇼케이스 */
+#showcase .showcase-content {
+  color: black;
+  text-align: left;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h3 {
+  font-size: 35px;
+  line-height: 1em;
+}
+
+/* 온라인 체험 showcase 쇼케이스 */
+#showcase2 {
+  background: url(../img/온라인체험.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+#search2 {
+  color: white;
+  padding-left: 130px;
+}
+
+#search2 h5 {
+  padding-top: 360px;
+  padding-bottom: 4px;
+  margin: 0px 0px 4px;
+  font-size: 12px;
+}
+
+#search2 p {
+  font-size: 18px;
+  margin: 16px 0px 24px;
+  padding-top: 20px;
+  padding-left: 1px;
+}
+
+#search2 h1 {
+  font-size: 48px;
+  padding-top: 10px;
+}
+
+/* 온라인체험 버튼 */
+.button54 {
+  display: inline-block;
+}
+
+.button54 .bbb {
+  font-size: 14px;
+  color: #222222;
+  background: white;
+  border-radius: 35px;
+  padding: 8px 16px;
+  margin-left: 150px;
+  margin-right: 18px;
+  margin-top: 25px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  position: relative;
+  cursor: pointer;
+}
+
+.button54 .ccc {
+  border-radius: 35px;
+  color: #222222;
+  background: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  padding-bottom: 8px;
+  margin-right: 18px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  position: relative;
+  cursor: pointer;
+}
+
+.button54 .ddd {
+  font-size: 14px;
+  color: #222222;
+  background: white;
+  border-radius: 35px;
+  padding: 8px 16px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  position: relative;
+  cursor: pointer;
+}
+
+/* 세계 각지의 온라인 체험 */
+.g h1 {
+  padding-top: 45px;
+  padding-left: 150px;
+}
+
+.g p {
+  font-size: 16px;
+  padding-left: 139px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 20px;
+  width: 1500px;
+  gap: 15px;
+  justify-content: center;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+.item {
+  position: relative;
+}
+.grid img,
+.grid2 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+}
+
+.item h5 {
+  padding-top: 10px;
+  padding-bottom: 7px;
+  font-size: 12px;
+}
+
+.item div {
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.item span {
+  font-size: 14px;
+  color: #717171;
+}
+
+/* 사진 3줄 */
+.grid65 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 20px;
+  width: 100px;
+  gap: 15px;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.grid65 img {
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+/* 이전페이지 / 다음페이지 */
+.nav46 {
+  color: #dddddd;
+  font-size: 16px;
+  text-decoration: underline;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  list-style: none;
+}
+
+#ed {
+  padding-top: 150px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.nav46 .c1 {
+  color: #222222;
+  text-decoration: underline;
+  padding-right: 50px;
+}
+/* 메인 폼 */
+.main-form {
+  background-color: white;
+  margin-left: 7%;
+  margin-top: 1%;
+  padding: 32px 32px 24px 32px;
+  width: 550px;
+  height: 560px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(a, 0, 0, 0.12);
+}
+
+.form-group input {
+  width: 480px;
+  height: 45px;
+}
+
+.form-group1 input {
+  width: 100px;
+}
+
+.form-group {
+  padding-top: 15px;
+}
+
+.form-group label {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.form-group5 {
+  display: flex;
+  width: 80px;
+  height: 50px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.form-group5 input {
+  width: 240px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.form-group5 label {
+  padding-bottom: 10px;
+}
+
+.form-group6 {
+  padding-top: 90px;
+}
+
+.form-group6 input {
+  width: 480px;
+  height: 50px;
+}
+
+.form-group6 label {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.modal button {
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  margin-left: 410px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+/* 메인 폼2 */
+#form-group23 {
+  display: grid;
+  grid-template-rows: 10px;
+  background: white;
+  margin-left: 7%;
+  width: 550px;
+  height: 140px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.form-group22 {
+  background: #ffaf0f;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.form-group2 {
+  padding-top: 25px;
+  padding-left: 30px;
+  width: 550px;
+  height: 100px;
+}
+
+.form-group2 span {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.form-group2 p {
+  font-size: 15px;
+  text-decoration: underline;
+  margin-left: -2px;
+}
+
+/* 폼3 */
+#form-3 {
+  margin-top: 50px;
+  padding-left: 70px;
+  display: grid;
+  grid-template-columns: 10px 700px;
+}
+
+.form4 {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 100%;
+  background-color: #ffaf0f;
+  width: 410px;
+  margin-left: -400px;
+}
+.form3 {
+  background-color: white;
+  border-color: #333;
+  height: 100px;
+  width: 1805px;
+  padding-top: 17px;
+  padding-left: 15px;
+  margin-left: -400px;
+  border: solid 1px gray;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+.form h5 {
+  font-size: 12px;
+}
+
+.form3 h4 {
+  font-size: 14px;
+}
+
+.form3 h3 {
+  font-size: 13px;
+  padding-left: 8px;
+  text-decoration: underline;
+}
+
+/* 그리드 */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+main h3 {
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 25px;
+  padding-left: 70px;
+}
+
+main h5 {
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+main h4 {
+  font-size: 16px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+
+/* 바 */
+.bar2 {
+  margin-top: 110px;
+  width: 1900px;
+  height: 3px;
+  background-color: #f7f8f9;
+}
+
+/* 공통 클래스(여러번 사용) */
+
+.container {
+  margin: auto;
+  max-width: 2200px;
+  padding: 0 20px;
+}
+
+#showcase {
+  background: url(../img/고화질배경화면.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* 에어비앤비 둘러보기  */
+
+#form-4 h3 {
+  padding-left: 70px;
+  padding-top: 50px;
+}
+#form-4 .grid99 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 38px;
+  margin-left: 33px;
+}
+
+#form-4 .grid99 .wrap div img {
+  width: 160px;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#form-4 .grid99 .wrap div.text {
+  height: 120px;
+  width: 120px;
+  margin-left: -110px;
+}
+
+#form-4 .wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 120px;
+
+  border-radius: 22px;
+  width: 538px;
+  margin-left: 35px;
+  margin-top: 35px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+#form-4 .text {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+/* 바 */
+.bar {
+  margin-top: 110px;
+  width: 1900px;
+  height: 3px;
+  background-color: #f7f8f9;
+}
+/* 새로운 모습으로 만나는 체험 */
+.container30 {
+  width: 1903px;
+  height: 368px;
+  background: #f7f7f7;
+  margin-top: 120px;
+}
+
+.container30 .new1 {
+  padding-left: 150px;
+  padding-top: 140px;
+  max-width: 700px;
+}
+
+.new1 h1 {
+  font-size: 22px;
+}
+
+.nn {
+  list-style: none;
+  padding-left: 800px;
+  margin-top: -40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nn22 .nn25 {
+  width: 42px;
+  height: 42px;
+  margin: 0px 24px 0px 0px;
+}
+
+.nn22 h1 {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.nn22 p {
+  font-size: 16px;
+  margin-left: -1px;
+}
+
+.nn22 .nn23 {
+  width: 42px;
+  height: 42px;
+  margin: 0px 24px 0px 0px;
+}
+
+.nn22 .nn24 {
+  width: 42px;
+  height: 42px;
+  margin: 0px 24px 0px 0px;
+}
+
+/* 구호인력 숙소를 소개합니다 */
+.k {
+  margin-top: 52px;
+}
+
+.k1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 150px;
+}
+
+.k2 {
+  padding-left: 50px;
+  padding-top: 60px;
+}
+.k2 h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: #222222;
+}
+
+.k2 p {
+  font-size: 18px;
+  color: #222222;
+  margin-left: 5px;
+}
+.k3 {
+  margin-top: 40px;
+  flex-direction: row;
+}
+.k3 .k5 {
+  border-radius: 8px;
+  color: #484848;
+  background: white;
+  font-size: 18px;
+  margin: 8px;
+  padding: 32px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.k3 .k4 {
+  font-size: 18px;
+  color: #484848;
+  background: white;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 32px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.k1 .k6 img {
+  width: 654px;
+  height: 700px;
+  border-radius: 18px;
+}
+
+/* 구호인력 숙소 제공하기 */
+.container79 {
+  background: #f7f8f9;
+  width: 1903px;
+  height: 700px;
+}
+
+.container79 .c2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.c2 h1 {
+  font-size: 48px;
+  color: #222222;
+}
+
+.c2 p {
+  color: #222222;
+  font-size: 18px;
+  margin: 16px 0px 0px;
+  padding-top: 25px;
+}
+
+.c4 h2 {
+  font-size: 26px;
+  color: #222222;
+  padding-bottom: 30px;
+}
+
+.c4 {
+  padding-left: 50px;
+}
+.c5 h3,
+.c6 h3,
+.c7 h3 {
+  font-size: 18px;
+  padding-left: 5px;
+  color: #222222;
+}
+
+.c5 p,
+.c6 p,
+.c7 p {
+  padding-left: 18px;
+  font-size: 18px;
+}
+.c5 span {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.c5,
+.c6 {
+  padding-bottom: 15px;
+}
+
+.c3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 185px;
+  margin-top: 72px;
+}
+
+.c8 {
+  padding-left: 320px;
+}
+
+.c9 {
+  background: white;
+  width: 420px;
+  height: 280px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.c10 h2 {
+  font-size: 22px;
+  margin: 0px 0px 16px;
+  color: #222222;
+  padding-top: 40px;
+  padding-left: 35px;
+  line-height: 25px;
+}
+
+.c10 p {
+  font-size: 18px;
+  color: #222222;
+  margin: 16px 0px 0px;
+  line-height: 25px;
+  padding-left: 35px;
+}
+
+.c11 {
+  padding-left: 26px;
+  padding-top: 12px;
+}
+
+.c11 .c12 {
+  font-size: 16px;
+  color: #ffffff;
+  background: #222222;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 12px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  width: 155px;
+}
+
+/* 구호 인력 기부금 사용하기 */
+
+.container80 {
+  background: #f7f8f9;
+  width: 1903px;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.container80 .c2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.c20 p {
+  color: #222222;
+  font-size: 18px;
+  margin: 16px 0px 0px;
+  margin-left: 26px;
+  margin-top: -17px;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+.c8 {
+  padding-left: 320px;
+}
+
+.c21 {
+  background: white;
+  width: 430px;
+  height: 170px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.c10 h2 {
+  font-size: 22px;
+  margin: 0px 0px 16px;
+  color: #222222;
+  padding-top: 40px;
+  padding-left: 35px;
+  line-height: 25px;
+}
+
+.c10 p {
+  font-size: 18px;
+  color: #222222;
+  margin: 16px 0px 0px;
+  line-height: 25px;
+  padding-left: 35px;
+}
+
+.c11 {
+  padding-left: 26px;
+  padding-top: 12px;
+}
+
+.c22 .c23 {
+  font-size: 16px;
+  color: #ffffff;
+  background: #222222;
+  border-radius: 8px;
+  padding: 14px;
+  margin: 8px;
+  border-color: rgb(176, 176, 176);
+  outline: none;
+  line-height: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  width: 155px;
+  margin-left: 36px;
+  margin-top: -3px;
+}
+
+/* 구호인력 에어비앤비 파트너 단체 */
+.container90 {
+  width: 1903px;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.container90 .c2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.c20 p {
+  color: #222222;
+  font-size: 18px;
+  margin: 16px 0px 0px;
+  margin-left: 26px;
+  margin-top: -17px;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+#form-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 180px;
+  padding-left: 288px;
+  width: 200px;
+}
+
+#form-3 .grid999 {
+  display: grid;
+  grid-template-columns: 10px auto;
+}
+
+.grid999 {
+  width: 330px;
+}
+
+.form100 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  background-color: red;
+}
+
+.form88 {
+  background-color: white;
+  border-color: #333;
+  height: 80px;
+  width: 300px;
+  padding-top: 17px;
+  padding-left: 15px;
+  border: solid 1px gray;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.form88 h1 {
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+.form91 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  background-color: #ffaf0f;
+}
+
+.form90 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  background-color: #1463a5;
+}
+
+/* 바 */
+.bar4 {
+  margin-top: 80px;
+  width: 1900px;
+  height: 10px;
+  background-color: #f7f8f9;
+}
+
+/* 에어비앤비와 제휴하고 싶으신가요? */
+.l1 {
+  margin-left: -63px;
+}
+.l2 {
+  display: grid;
+  grid-template-columns: 620px 620px;
+  margin-left: 400px;
+  margin-top: 70px;
+  gap: 60px;
+}
+
+.l5 {
+  display: grid;
+  grid-template-columns: 620px 620px;
+  margin-left: 400px;
+  margin-top: 140px;
+  gap: 60px;
+}
+
+.l3 i {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 15px;
+  background: #f7f8f9;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+}
+
+.l3 h1,
+.l6 h1,
+.l7 h1 {
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.l3 p,
+.l6 p,
+.l7 p {
+  margin-left: 1px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.l3 span,
+.l6 span,
+.l7 span {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.l4 i {
+  font-size: 30px;
+  padding-left: 11px;
+  padding-top: 15px;
+  background: #f7f8f9;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+}
+
+.l4 h1 {
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.l4 p {
+  margin-left: 1px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.l4 span {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.bar6 {
+  margin-top: 150px;
+  width: 1900px;
+  height: 1px;
+  background-color: #dddddd;
+}
+/* Features 섹션 */
+.box {
+  float: left;
+  width: 25%;
+  padding: 50px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.box h5 {
+  font-size: 12px;
+  padding-left: 13px;
+}
+
+.box.bg {
+  width: 390px;
+}
+/* 바 */
+.bar3 {
+  margin-top: 300px;
+  margin-left: 60px;
+  width: 1780px;
+  height: 3px;
+  background-color: #dddddd;
+}
+
+.bar5 {
+  margin-top: 300px;
+  margin-left: 340px;
+  width: 1250px;
+  height: 1px;
+  background-color: #dddddd;
+}
+/* footer */
+
+#features {
+  padding-left: 225px;
+}
+
+.clr {
+  clear: both;
+}
+.main-footer {
+  text-align: left;
+  background: white;
+  color: black;
+  padding: 15px;
+  font-size: 14px;
+  padding-left: 272px;
+}
+
+.ft2 {
+  padding-right: 190px;
+}
+.main-footer .ft1 p {
+  padding-left: 50px;
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+}
+
+.main-footer .ft2 {
+  margin-top: -45px;
+  margin-right: 100px;
+}
+
+.ft2 .ftk {
+  padding-right: 15px;
+  text-decoration: underline;
+}
+
+.ft2 .ftw {
+  padding-right: 5px;
+}
+
+.ft2 .ftww {
+  padding-right: 40px;
+  text-decoration: underline;
+}
+
+.ft2 .fwf {
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.ft2 .fwt {
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.ft2 .fwin {
+  font-size: 18px;
+  padding-right: 17px;
+}
+
+.main-footer .ft2 {
+  text-align: right;
+}
+
+.ft2 .fwb img {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  top: 4px;
+}
+
+.ft2 .fwbb img {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.ft2 .fwbb {
+  margin: 10px;
+}
